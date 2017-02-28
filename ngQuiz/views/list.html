@@ -1,0 +1,28 @@
+<form class="form-inline well well-sm clearfix">
+	<span class="glyphicon glyphicon-search"></span>
+	<input type="text" name="search" placeholder="Search..." class="form-control" ng-model="search">
+	<button class="btn btn-warning pull-right" ng-click="activateQuiz()">Start Quiz</button>
+</form>
+<div class="row">
+	<div class="col-md-6" ng-repeat="hero in heroes | filter:search">
+		<div class="well well-sm">
+			<div class="row">
+				<div class="col-md-6 col-sm-offset-4 col-xs-offset-3 col-md-offset-0">
+					<img ng-src="{{hero.image}}" class="img-responsive shadow img-rounded img-well">
+				</div>
+				<div class="col-md-6">
+				 <h4 class="heading font-comic">{{hero.name}}</h4>
+				 <h5><strong>Real Name: </strong>{{hero.real_name}}</h5>
+				 <h5><strong>Occupation: </strong>{{hero.occupation}}</h5>
+		         <h5><strong>First Appearance: </strong>{{hero.First_appearance}}</h5>
+				 </br>
+				 <button class="btn btn-primary"
+				 		 data-toggle="modal"
+				 		 data-target="#hero"
+				 		 ng-click="currentHero(hero)">Read More</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div ng-include="'views/modal.html'"></div>

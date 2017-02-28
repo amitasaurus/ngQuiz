@@ -1,0 +1,42 @@
+[
+  {
+    "name" : "Batman",
+    "real_name" : "Bruce Wayne",
+    "occupation" : "Businessman",
+    "First_appearance" : "Detective Comics #27",
+    "powers_short" : "Unlike most superheroes, Batman does not possess any superpowers; rather, he relies on his genius intellect, physical prowess, martial arts abilities, detective skills, science and technology, vast wealth, intimidation, and indomitable will.",
+    "image" : "https://s-media-cache-ak0.pinimg.com/originals/65/8d/75/658d753cb2e6bf796de53dc4390f699d.jpg"
+  },
+  {
+    "name" : "Wonder Woman",
+    "real_name" : "Diana Prince",
+    "occupation" : "Emissary to the world of Man, Protector of Paradise Island; former Goddess of Truth",
+    "First_appearance" : "All-Star Comics #8 (December, 1941)",
+    "powers_short" : "Divine Empowerment,Superhuman Strength,Superhuman Durability,Flight,Enhanced Healing Factor,Enhanced Senses,Enhanced Vision,Enhanced Sense of Smell ,Enhanced Hearing ,Dimensional Teleportation,Archery,Swordsmanship,Lassoing",
+    "image" : "http://s3.birthmoviesdeath.com/images/made/Wonder-Woman-Poster_1200_1778_81_s.jpg"
+  },
+  {
+    "name" : "Superman",
+    "real_name" : "Clark Kent (Kal-El)",
+    "occupation" : "Reporter for the Daily Planet and novelist",
+    "First_appearance" : "ACTION COMICS #1 (June, 1938)",
+    "powers_short" : "Strength,Invulnerability,Longevity,Superhuman Stamina,Flight,Superhuman Speed,Superhuman Hearing,Healing Factor,Super Breath,Heat Vision,X-Ray Vision,Torquasm Rao",
+    "image" : "https://whataboutthetwinkie.files.wordpress.com/2014/09/man-of-steel-superman-poster.jpg"
+  },
+  {
+    "name" : "Hal Jordan",
+    "real_name" : "Hal Jordan",
+    "occupation" : "Air Force Test Pilot",
+    "First_appearance" : "Showcase #22",
+    "powers_short" : "Use of power ring grants numerous powers, including flight, invulnerability, omnilingualism,Energy Projection and the generation of hard-light constructs.",
+    "image" : "http://vignette4.wikia.nocookie.net/marvel_dc/images/0/09/Green_Lantern_Movie_Hal_Jordan_poster.jpg/revision/latest?cb=20110629045104"
+  },
+  {
+    "name" : "Flash",
+    "real_name" : "Barry Allen",
+    "occupation" : "Forensic Scientist",
+    "First_appearance" : "Showcase #4 (October, 1956)",
+    "powers_short" : "Barry Allen is The Flash, the fastest man alive. Using his super-speed powers, he taps into the Speed Force and becomes a costumed crime-fighter. His position is a legacy in the Flash Family, successor to the original Jay Garrick and predecessor to Wally West.",
+    "image" : "http://cdn2-www.comingsoon.net/assets/uploads/gallery/the-flash-season-two/cqpjcygusaaqrxv.jpg"
+  }
+]

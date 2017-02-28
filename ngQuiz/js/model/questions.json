@@ -1,0 +1,203 @@
+[
+        {
+            "type": "text",
+            "text": "Which newspaper does Peter Parker work for?",
+            "possibilities": [
+                {
+                    "answer": "the Daily Bugle"
+                },
+                {
+                    "answer": "the Daily Planet"
+                },
+                {
+                    "answer": "the Daily Gothamite"
+                },
+                {
+                    "answer": "New York Times"
+                }
+            ],
+            "selected": null,
+            "correct": null
+        },
+        {
+            "type": "text",
+            "text": "The Avengers Initiative was issued by...",
+            "possibilities": [
+                {
+                    "answer": "Star Labs"
+                },
+                {
+                    "answer": "S.H.I.E.L.D."
+                },
+                {
+                    "answer": "The Avengers"
+                },
+                {
+                    "answer": "S.W.O.R.D."
+                }
+            ],
+            "selected": null,
+            "correct": null
+        },
+        {
+            "type": "text",
+            "text": "What does S.H.I.E.L.D. stand for?",
+            "possibilities": [
+                {
+                    "answer": "Strategic Homeland Intervention Enforcement Logistics Division"
+                },
+                {
+                    "answer": "Super Heroes Inside Extremely Lovely Dinosaurs"
+                },
+                {
+                    "answer": "Sammiches Have Incredible Edible Latverian Drinks"
+                },
+                {
+                    "answer": "Super Heroes In Extra Lethal Design"
+                }
+            ],
+            "selected": null,
+            "correct": null
+        },
+        {
+            "type": "text",
+            "text": "Who is Batman ?",
+            "possibilities": [
+                {
+                    "answer": "Clark Kent"
+                },
+                {
+                    "answer": "Bruce Banner"
+                },
+                {
+                    "answer": "Bruce Wayne"
+                },
+                {
+                    "answer": "Hal Jordan"
+                }
+            ],
+            "selected": null,
+            "correct": null
+        },
+        {
+            "type": "text",
+            "text": "Who is Cyborg ?",
+            "possibilities": [
+                {
+                    "answer": "Clark Kent"
+                },
+                {
+                    "answer": "Victor Stone"
+                },
+                {
+                    "answer": "Bruce Wayne"
+                },
+                {
+                    "answer": "Hal Jordan"
+                }
+            ],
+            "selected": null,
+            "correct": null
+        },
+        {
+            "type": "text",
+            "text": "Who is Aquaman ?",
+            "possibilities": [
+                {
+                    "answer": "Oliver Queen"
+                },
+                {
+                    "answer": "Ray Palmer"
+                },
+                {
+                    "answer": "Arthur Curry"
+                },
+                {
+                    "answer": "Guy Gardner"
+                }
+            ],
+            "selected": null,
+            "correct": null
+        },
+        {
+            "type": "image",
+            "text": "Identify Martian Manhunter ?",
+            "possibilities": [
+                {
+                    "answer": "https://s-media-cache-ak0.pinimg.com/originals/19/55/ec/1955ec43aa569de3e59c2632d6fc614f.jpg"
+                },
+                {
+                    "answer": "https://s-media-cache-ak0.pinimg.com/736x/85/a2/dd/85a2ddc0592dbb2c0ec80fe0b9cbab76.jpg"
+                },
+                {
+                    "answer": "http://static.comicvine.com/uploads/original/13/135592/3040428-5044230316-28504.jpg"
+                },
+                {
+                    "answer": "http://imagecache5d.allposters.com/watermarker/87-8790-SKBO300Z.jpg?ch=948&cw=632"
+                }
+            ],
+            "selected": null,
+            "correct": null
+        },
+        {
+            "type": "text",
+            "text": "What are Wolverine's claws made of?",
+            "possibilities": [
+                {
+                    "answer": "cadmium"
+                },
+                {
+                    "answer": "adamantium"
+                },
+                {
+                    "answer": "titanium"
+                },
+                {
+                    "answer": "vibranium"
+                }
+            ],
+            "selected": null,
+            "correct": null
+        },
+        {
+            "type": "text",
+            "text": "What is another name for Superman?",
+            "possibilities": [
+                {
+                    "answer": "The Red Redeemer"
+                },
+                {
+                    "answer": "The Masked Avenger"
+                },
+                {
+                    "answer": "The Caped Crusader"
+                },
+                {
+                    "answer": "The Man of Steel"
+                }
+            ],
+            "selected": null,
+            "correct": null
+        },
+        {
+            "type": "text",
+            "text": "How did Spiderman get his superpowers?",
+            "possibilities": [
+                {
+                    "answer": "He was bombarded by cosmic rays."
+                },
+                {
+                    "answer": "He was born with his powers."
+                },
+                {
+                    "answer": "He was caught in a chemical explosion."
+                },
+                {
+                    "answer": "He was bitten by a radioactive spider."
+                }
+            ],
+            "selected": null,
+            "correct": null
+        }
+
+]

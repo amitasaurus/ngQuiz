@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="quiz">
+<head>
+	<title>ngQuiz</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet" integrity="sha384-awusxf8AUojygHf2+joICySzB780jVvQaVCAt1clU3QsyAitLGul28Qxb2r1e5g+" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body ng-cloak>
+
+	<div class="container">
+		<div class="page-header text-center" >
+			<h1 class="font-comic title">Superhero Quiz</h1>
+			<h4>Learn about superheros and take the <strong>Superhero Quiz</strong></h4>
+		</div>
+
+	<div ng-controller="listCtrl" ng-hide="quizMetrics.quizActive || quizMetrics.resultsActive">
+		<div ng-include="'views/list.html'"></div>
+	</div>
+	<div ng-controller="quizCtrl" ng-show="quizMetrics.quizActive">
+		<div ng-include="'views/quiz.html'"></div>
+	</div>
+	<div ng-controller="resultsCtrl" ng-show="quizMetrics.resultsActive">
+		results showing
+	</div>
+
+
+
+
+
+
+
+
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+
+	<!-- my scripts -->
+	<script src="js/app.js"></script>
+	<script src="js/controllers/listCtrl.js"></script>
+	<script src="js/controllers/quizCtrl.js"></script>
+	<script src="js/factories/quizMetrics.js"></script>
+	<script src="js/factories/dataService.js"></script>
+	<script src="js/controllers/resultsCtrl.js"></script>
+</body>
+</html>
